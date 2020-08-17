@@ -34,7 +34,6 @@ class MainActivity : AppCompatActivity() {
             var i = Intent(Intent(this, BookPage::class.java))
             startActivity(i)
 
-            val pref=getSharedPreferences("pref", Context.MODE_PRIVATE)
 
             Toast.makeText(this, "جيل يقراء", Toast.LENGTH_LONG).show()
         }

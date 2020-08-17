@@ -1,17 +1,9 @@
 package sim.coder.novelheaders
 
 import android.content.Context
-import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_book_page.*
-import androidx.core.content.ContextCompat.getSystemService
-import android.icu.lang.UCharacter.GraphemeClusterBreak.T
-import androidx.core.app.ComponentActivity
-import androidx.core.content.ContextCompat.getSystemService
-import android.icu.lang.UCharacter.GraphemeClusterBreak.T
-import android.preference.PreferenceManager
-import android.view.View
 import com.github.barteksc.pdfviewer.listener.OnPageChangeListener
 
 
